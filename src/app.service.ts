@@ -27,7 +27,7 @@ export class AppService {
         }
 
         if(contractAddresses.length === 0) {
-            this.logger.error(`CONTRACT_ADDRESSES is empty, exit`)
+            this.logger.error(`BAND_CONTRACT_ADDRESSES is empty, exit`)
             process.exit(1)
         }
 
