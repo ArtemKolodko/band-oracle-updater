@@ -10,5 +10,5 @@ export default () => ({
     .split(',')
     .map(item => item.trim())
     .filter(item => item),
-  updateIntervalSeconds: parseInt(process.env.UPDATE_INTERVAL_SECONDS || '3000'),
+  updateIntervalSeconds: parseInt(process.env.UPDATE_INTERVAL_SECONDS || '3600'),
 });
